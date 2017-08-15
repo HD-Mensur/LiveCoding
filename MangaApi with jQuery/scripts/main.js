@@ -2,10 +2,10 @@
 
 $(function() {
   
-  var listEndpoint = 'https://www.mangaeden.com/api/list/0/ ';
-  var infoEndpoint = 'https://www.mangaeden.com/api/manga/';
-  var chapterEndpoint = 'https://www.mangaeden.com/api/chapter/';
-  var imgEndpoint = 'https://cdn.mangaeden.com/mangasimg/';
+  var listEndpoint = 'http://www.mangaeden.com/api/list/0/ ';
+  var infoEndpoint = 'http://www.mangaeden.com/api/manga/';
+  var chapterEndpoint = 'http://www.mangaeden.com/api/chapter/';
+  var imgEndpoint = 'http://cdn.mangaeden.com/mangasimg/';
   var mangalist = {};
   
   getMangaList().then(function(data, status) {
